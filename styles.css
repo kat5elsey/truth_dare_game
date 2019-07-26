@@ -1,0 +1,77 @@
+body{
+  background-image: url("/Users/apple/Desktop/truth_dare_game/assets/background_gif_2.gif");
+  background-repeat: repeat;
+  background-size:100%
+}
+
+.buttons {
+  border: 1px solid;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color:white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.truthbutton {
+  background-color: red;
+  height: 50px;
+  width: 100px;
+  border-radius: 25%;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.darebutton {
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 100px;
+  border-radius: 25%;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1{
+  display: flex;
+  border: 3px dashed black;
+  background-color: #B30808;
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: center;
+  font-family: 'Fascinate', cursive;
+}
+p{
+  display: flex;
+  justify-content: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.search{
+  border: 1px solid;
+  margin-left:25%;
+  margin-right: 25%;
+  margin-top: 10%;
+  margin-bottom: 25%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #EB0C2D;
+  display: flex;
+  justify-content: center;
+}
+
+.jstruth{
+  height: 100px;
+  margin-left: 43%;
+}
+
+.jsimage{
+  height: 300px;
+}
+
+.secretcontainer{
+  display: flex;
+  flex-direction: column;
+}
